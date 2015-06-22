@@ -30,7 +30,7 @@
  DAMAGE. 
  =========================================================================*/
 
-/** @file
+/*
  *	display help
  *
  *	cscope - interactive C symbol cross-reference
@@ -49,7 +49,7 @@
 */
 #define MAXHELP	50	/* maximum number of help strings */
 
-static char const rcsid[] = "$Id: help.c,v 1.3 2012/10/13 07:02:06 shigio Exp $";
+static char const rcsid[] = "$Id: help.c,v 1.4 2015/06/22 06:42:39 shigio Exp $";
 
 void
 help(void)

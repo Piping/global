@@ -30,7 +30,7 @@
  DAMAGE. 
  =========================================================================*/
 
-/** @file
+/*
  *	terminal input functions
  *
  *	cscope - interactive C symbol cross-reference
@@ -49,7 +49,7 @@
 #include <sys/termios.h>
 #endif
 
-static char const rcsid[] = "$Id: input.c,v 1.2 2012/10/13 07:02:07 shigio Exp $";
+static char const rcsid[] = "$Id: input.c,v 1.3 2015/06/22 06:42:40 shigio Exp $";
 
 static	jmp_buf	env;		/**< setjmp/longjmp buffer */
 static	int	prevchar;	/**< previous, ungotten character */
@@ -249,7 +249,7 @@ askforchar(void)
     mygetch();
 }
 
-/** ask user to press the @NAME{RETURN} key after reading the message */
+/** ask user to press the RETURN key after reading the message */
 
 void
 askforreturn(void)
@@ -262,7 +262,7 @@ askforreturn(void)
     }
 }
 
-/** expand the @CODE{~} and @CODE{\$} shell meta characters in a path */
+/** expand the ~ and $ shell meta characters in a path */
 
 void
 shellpath(char *out, int limit, char *in) 

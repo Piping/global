@@ -30,7 +30,7 @@
  DAMAGE. 
  =========================================================================*/
 
-/** @file
+/*
  *	file editing functions
  *
  *	cscope - interactive C symbol cross-reference
@@ -45,7 +45,7 @@
 #include "path.h"
 #include "encodepath.h"
 
-static char const rcsid[] = "$Id: edit.c,v 1.8 2014/03/17 06:46:06 shigio Exp $";
+static char const rcsid[] = "$Id: edit.c,v 1.9 2015/06/22 06:42:38 shigio Exp $";
 
 /** edit this displayed reference */
 

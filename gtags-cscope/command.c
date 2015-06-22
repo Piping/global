@@ -30,10 +30,10 @@
  DAMAGE. 
  =========================================================================*/
 
-/**	@file
+/*
  *	command functions
  *
- *	@NAME{gtags-cscope} - interactive C symbol or text cross-reference (@NAME{cscope})
+ *	gtags-cscope - interactive C symbol or text cross-reference (cscope)
  */
 
 #include "global-cscope.h"
@@ -50,7 +50,7 @@
 #endif
 #include <ctype.h>
 
-static char const rcsid[] = "$Id: command.c,v 1.10 2014/03/17 06:46:06 shigio Exp $";
+static char const rcsid[] = "$Id: command.c,v 1.11 2015/06/22 06:42:37 shigio Exp $";
 
 
 int	selecting;

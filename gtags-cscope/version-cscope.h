@@ -30,14 +30,14 @@
  DAMAGE. 
  =========================================================================*/
 
-/* $Id: version-cscope.h,v 1.3 2012/10/13 07:02:07 shigio Exp $ */
+/* $Id: version-cscope.h,v 1.4 2015/06/22 06:42:40 shigio Exp $ */
 
-/** @file
+/*
  *	version-cscope.h
  *
  *	cscope - interactive C symbol cross-reference
  *
- *	@note Changing the cross-reference file part of the program version
+ *	[Note] Changing the cross-reference file part of the program version
  *	forces rebuilding of the cross-reference.
  */
 

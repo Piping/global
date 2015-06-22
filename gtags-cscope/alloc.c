@@ -30,7 +30,7 @@
  DAMAGE. 
  =========================================================================*/
 
-/** @file
+/*
  *	memory allocation functions
  */
 
@@ -40,7 +40,7 @@
 
 #include "global-cscope.h" /* for postfatal() */
 
-static char const rcsid[] = "$Id: alloc.c,v 1.2 2012/10/13 07:01:58 shigio Exp $";
+static char const rcsid[] = "$Id: alloc.c,v 1.3 2015/06/22 06:42:36 shigio Exp $";
 
 static	void	*alloctest(void *p);
 
@@ -61,7 +61,7 @@ my_strdup(char *s)
 }
 
 
-/** version of @NAME{malloc} that only returns if successful */
+/** version of malloc that only returns if successful */
 void *
 mymalloc(size_t size)
 {
@@ -69,7 +69,7 @@ mymalloc(size_t size)
 }
 
 
-/** version of @NAME{calloc} that only returns if successful */
+/** version of calloc that only returns if successful */
 void *
 mycalloc(size_t nelem, size_t size)
 {
@@ -77,7 +77,7 @@ mycalloc(size_t nelem, size_t size)
 }
 
 
-/** version of @NAME{realloc} that only returns if successful */
+/** version of realloc that only returns if successful */
 void *
 myrealloc(void *p, size_t size)
 {

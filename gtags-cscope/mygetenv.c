@@ -30,13 +30,13 @@
  DAMAGE. 
  =========================================================================*/
 
-static char const rcsid[] = "$Id: mygetenv.c,v 1.2 2012/10/13 07:02:07 shigio Exp $";
+static char const rcsid[] = "$Id: mygetenv.c,v 1.3 2015/06/22 06:42:40 shigio Exp $";
 
 #include "library.h"
 
 #include <stdlib.h>
 
-/** return the @EMPH{non-null} environment value or the default argument */
+/** return the non-null environment value or the default argument */
 
 char	*
 mygetenv(char *variable, char *deflt)
