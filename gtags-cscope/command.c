@@ -50,9 +50,6 @@
 #endif
 #include <ctype.h>
 
-static char const rcsid[] = "$Id: command.c,v 1.11 2015/06/22 06:42:37 shigio Exp $";
-
-
 int	selecting;
 unsigned int   curdispline = 0;
 

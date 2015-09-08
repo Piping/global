@@ -49,8 +49,6 @@
 */
 #define MAXHELP	50	/* maximum number of help strings */
 
-static char const rcsid[] = "$Id: help.c,v 1.4 2015/06/22 06:42:39 shigio Exp $";
-
 void
 help(void)
 {

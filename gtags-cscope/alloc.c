@@ -40,8 +40,6 @@
 
 #include "global-cscope.h" /* for postfatal() */
 
-static char const rcsid[] = "$Id: alloc.c,v 1.3 2015/06/22 06:42:36 shigio Exp $";
-
 static	void	*alloctest(void *p);
 
 /* let autoconf find out if <stdlib.h> is available. This test will

@@ -56,8 +56,6 @@
 #define HAVE_FORK 1
 #endif
 
-static char const rcsid[] = "$Id: exec.c,v 1.5 2015/06/22 06:42:38 shigio Exp $";
-
 static	sighandler_t oldsigquit; /**< old value of quit signal */
 static	sighandler_t oldsighup; /**< old value of hangup signal */
 static	sighandler_t oldsigtstp; /**< old value of SIGTSTP */
@@ -135,6 +133,7 @@ myexecvp(char *a, char **args)
     askforreturn();		/* wait until the user sees the message */
     myexit(1);		/* exit the child */
     /* NOTREACHED */
+    return -1;		/* to satisfy a compiler */
 }
 
 /** myfork acts like fork but also handles signals */

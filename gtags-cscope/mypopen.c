@@ -58,8 +58,6 @@
 # include <io.h>		/* for setmode() */
 #endif
 
-static char const rcsid[] = "$Id: mypopen.c,v 1.3 2012/10/13 07:02:07 shigio Exp $";
-
 static pid_t popen_pid[20];
 static RETSIGTYPE (*tstat)(int);
 

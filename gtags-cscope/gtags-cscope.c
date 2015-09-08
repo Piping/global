@@ -86,8 +86,6 @@
 /** temp dir */
 #define TMPDIR	"/tmp"
 
-static char const rcsid[] = "$Id: gtags-cscope.c,v 1.31 2015/06/22 06:42:39 shigio Exp $";
-
 char	*editor, *shell, *lineflag;	/**< environment variables */
 char	*global_command;	/**< "global" by default */
 char	*gtags_command;		/**< "gtags" by default */
