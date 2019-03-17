@@ -1,0 +1,19 @@
+/.cvsignore/1.2/Sun Mar 17 00:13:47 2019//
+/C.c/1.16/Sun Mar 17 00:13:47 2019//
+/Cpp.c/1.25/Sun Mar 17 00:13:47 2019//
+/HACKING/1.4/Sun Mar 17 00:13:47 2019//
+/Makefile.am/1.3/Sun Mar 17 00:13:47 2019//
+/asm_parse.y/1.3/Sun Mar 17 00:13:47 2019//
+/asm_res.in/1.1/Sun Mar 17 00:13:47 2019//
+/asm_scan.l/1.4/Sun Mar 17 00:13:47 2019//
+/c_res.in/1.2/Sun Mar 17 00:13:47 2019//
+/cpp_res.in/1.1/Sun Mar 17 00:13:47 2019//
+/internal.h/1.3/Sun Mar 17 00:13:47 2019//
+/java.c/1.3/Sun Mar 17 00:13:47 2019//
+/java_res.in/1.1/Sun Mar 17 00:13:47 2019//
+/parser.c/1.23/Sun Mar 17 00:13:47 2019//
+/parser.h/1.9/Sun Mar 17 00:13:47 2019//
+/php.l/1.8/Sun Mar 17 00:13:47 2019//
+/php_res.in/1.2/Sun Mar 17 00:13:47 2019//
+/reserved.pl/1.3/Sun Mar 17 00:13:47 2019//
+D
